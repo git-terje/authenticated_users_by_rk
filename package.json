@@ -1,0 +1,19 @@
+{
+  "name": "authenticated_users_by_rk",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "semantic-release": "^21.0.0",
+    "@semantic-release/changelog": "^6.0.0",
+    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/github": "^9.0.0",
+    "husky": "^9.0.0",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "validate": "hassfest && npm test || true",
+    "check-versions": "node scripts/check-versions.js"
+  }
+}
