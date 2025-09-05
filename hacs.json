@@ -1,0 +1,9 @@
+{
+  "name": "Authenticated Users by rk",
+  "filename": "authenticated_users_by_rk.zip",
+  "hide_default_branch": true,
+  "render_readme": true,
+  "domains": ["sensor"],
+  "country": "ALL",
+  "version": "0.0.0"
+}
